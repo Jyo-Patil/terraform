@@ -1,0 +1,16 @@
+# Common
+project = "e2esa-tutorials"
+
+# General 
+aws_region  = "us-east-1"
+profile     = "development"
+environment = "dev"
+
+# Backend
+backend_s3_bucket      = "tf_states"
+backend_dynamodb_table = "tf_locks"
+
+# ECS
+create_ecs_cluster = true
+ecs_cluster_name   = "e2esa-cluster-dev"
+container_insights = false

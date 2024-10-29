@@ -1,0 +1,17 @@
+# Common
+project       = "azvault-demo"
+prefix        = "aks"
+suffix        = "01"
+org_unit      = "OU"
+business_unit = "BU" # 
+cost_center   = "CCAZ0000"
+appid         = "app001"
+
+# General 
+location = "eastus"
+resource_group_name = "rg-us-east-az-vault"
+
+# Azure Vault
+key_vault_name= "demo-vault"
+secret_val = "sec8rt"
+certificate_password ="pswd001"

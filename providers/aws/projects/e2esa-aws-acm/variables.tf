@@ -1,0 +1,16 @@
+
+# Tags
+variable "project" {}
+variable "prefix" {}
+variable "suffix" {}
+variable "createdby" {}
+variable "org_unit" {}
+variable "business_unit" {}
+variable "cost_center" {}
+variable "appid" {}
+
+# General 
+variable "aws_region" {}
+
+variable "domain_name" {}
+variable "additional_domain_names" {}
